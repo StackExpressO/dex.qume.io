@@ -40,6 +40,8 @@ body, html {
 }
 
 .timer__subtitle{
+    display:flex;
+    justify-content: center;
     font-size: 73px;
     font-weight: bold;
     font-stretch: normal;
@@ -49,4 +51,45 @@ body, html {
     color: #59b8f7;
     font-family: 'Inter';
     text-align: center;
+}
+.timer__deno{
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #59b8f7;
+    font-size: 43px;
+  font-weight: 300
+}
+
+.timer__mins{
+    margin-left: 74px;
+    margin-right: 74px;
+    width: 110px;
+}
+
+.timer__hours{
+    width: 110px;
+}
+
+.timer__secs{
+    width: 110px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .timer__mins{
+        margin-left: 14px;
+        margin-right: 14px;
+        width: auto;
+    }
+    
+    .timer__hours{
+        width: auto;
+    }
+    
+    .timer__secs{
+        width: auto;
+    }
+    .timer__subtitle{
+        font-size: 60px;
+    }
 }
