@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url("../assets/fonts/Inter-Regular-slnt=0.ttf");
+}
+.bg{
+    background: url("../assets/img/Group\ 326.png") no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.timer__logoCenter{
+    display: block;
+    width: 152px;
+    height: 48px;
+    margin: auto;
+    padding-top: 59px;
+}
+
+.timer__title{
+    background-image: linear-gradient(to top, #75d4ff, #1374e3, #0351d6);
+    font-family: 'Inter';
+  font-size: 43px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 1.29px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.timer__subtitle{
+    font-size: 73px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 2.19px;
+    color: #59b8f7;
+    font-family: 'Inter';
+    text-align: center;
+}
