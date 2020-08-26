@@ -4,10 +4,10 @@ body, html {
   }
   @font-face {
     font-family: 'Inter';
-    src: url("../assets/fonts/Inter-Regular-slnt=0.ttf");
+    src: url("./Inter-Regular-slnt=0.ttf");
 }
 .bg{
-    background: url("../assets/img/Group\ 326.png") no-repeat;
+    background: url("./Group\ 326.png") no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
